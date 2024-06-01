@@ -135,16 +135,16 @@
       </ul>
       <ul class="menu">
         <li class="menu-elem">
-          <a href="" class="menu-icon"> Inicio </a>
+          <a href="#" class="menu-icon"> Inicio </a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon"> Contacto </a>
+          <a href="{{ asset('views/contact.php') }}" class="menu-icon"> Contacto </a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon"> Servicios </a>
+          <a href="{{ asset('views/services.php') }}" class="menu-icon"> Servicios </a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon"> Sobre Nosotros </a>
+          <a href="{{ asset('views/about-us.php.php') }}" class="menu-icon"> Sobre Nosotros </a>
         </li>
       </ul>
       <p class="text">@2024 | Todos los derechos reservados</p>

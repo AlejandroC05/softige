@@ -35,7 +35,7 @@
                 <a class="nav-link" href="services.php">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="about-us.php">Nosotros</a>
               </li>
               <li class="nav-items">
                 <a class="nav-link btn btn-sign-in" href="../admin/auth/login">INGRESAR</a>
@@ -108,16 +108,16 @@
       </ul>
       <ul class="menu">
         <li class="menu-elem">
-          <a href="" class="menu-icon">Inicio</a>
+          <a href="/" class="menu-icon">Inicio</a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon">Contacto</a>
+          <a href="contact.php" class="menu-icon">Contacto</a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon">Servicios</a>
+          <a href="services.php" class="menu-icon">Servicios</a>
         </li>
         <li class="menu-elem">
-          <a href="" class="menu-icon">Sobre Nosotros</a>
+          <a href="about-us.php" class="menu-icon">Sobre Nosotros</a>
         </li>
       </ul>
       <p class="text">@2024 | Todos los derechos reservados</p>
