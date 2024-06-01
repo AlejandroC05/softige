@@ -1,0 +1,178 @@
+.contactiner {
+  justify-content: center;
+  display: flex;
+}
+
+.contactiner form {
+  max-width:500px;
+  width:90%;
+  background-color:#0a1c4e;
+  padding:40px;
+  border-radius:20px;
+  color:#505e6c;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.contactiner h2 {
+  margin-top:5px;
+  font-weight:bold;
+  font-size:28px;
+  margin-bottom:36px;
+  color: #f1f1f1;
+}
+
+.contactiner .form-group:last-child {
+  margin-bottom:5px;
+}
+
+.contactiner form .form-control {
+  background:#fff;
+  border-radius:2px;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.05);
+  outline:none;
+  color: black;
+  padding-left:12px;
+  height:42px;
+}
+
+.contactiner form .form-control:focus {
+  border:1px solid #b2b2b2;
+}
+
+.contactiner form textarea.form-control {
+  min-height:100px;
+  max-height:260px;
+  padding-top:10px;
+  resize:vertical;
+}
+
+.contactiner form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+  outline:none !important;
+}
+
+.contactiner form .btn:hover {
+  opacity:1;
+}
+
+.contactiner form .btn:active {
+  transform:translateY(1px);
+}
+
+.contactiner form .btn-primary {
+  background-color:#5a02cc !important;
+  margin-top:15px;
+  color:#fff;
+}
+
+.social {
+  padding-bottom: 10%;
+}
+
+.social a {
+  width: 90px;
+}
+
+.custom-nav .navbar-brand {
+  color: #c8c8c8;
+  font-weight: bolder;
+}
+.custom-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: rgb(160, 125, 255);
+}
+.custom-nav .nav-item .nav-link:hover {
+  text-transform: uppercase;
+  color: #2458c7;
+}
+.custom-nav .btn-sign-in {
+  color: #c8c8c8;
+  font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+  .custom-nav .btn-sign-in {
+    background-color: #77a0f9;
+    color: black;
+    width: 110px;
+  }
+}
+
+a {
+	text-decoration: none;
+}
+
+.custom-nav .btn-sign-in:hover {
+  width: 110px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #6a03f0;
+}
+
+.custom-nav .nav-item {
+  margin-right: 10px;
+}
+
+.contact-section {
+  margin-top: 15%;
+}
+.contact-section h1 {
+  color: #2458c7;
+  font-weight: 700;
+}
+
+.contactt a {
+  text-decoration: none;
+  color: #24aec7;
+}
+
+.about-us a {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .contact-section {
+    text-align: center;
+  }
+}
+
+.contact-section p {
+  color: rgb(199, 199, 199);
+}
+
+
+@media (min-width: 992px) {
+  .contactt, .about-us {
+    width: 600px;
+  }
+
+  .contactiner form .btn {
+    width: 420px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .contactiner form .btn {
+    width: 420px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+  .contactt, .about-us {
+    width: 450px;
+  }
+
+  .contactiner form .btn {
+    width: 300px;
+  }
+}
