@@ -32,7 +32,6 @@ body {
 }
 
 .container2 {
-	display: flex;
 	width: 100%;
 	background: -webkit-linear-gradient(90deg, #01152c,#00273e,#134057);
 	background: linear-gradient(90deg, #01152c,#00273e,#134057);
