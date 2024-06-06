@@ -24,21 +24,23 @@ Este aplicativo web ofrece una solución para la gestión de inventario de cualq
 Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1. Clona el repositorio:
-   # git clone https://github.com/AlejandroC05/softige.git
-   # cd softige
+   ```
+   git clone https://github.com/AlejandroC05/softige.git
+   cd softige
+   ```
    
 
-2. Instala las dependencias de PHP y JavaScript:
+3. Instala las dependencias de PHP y JavaScript:
    # composer install
    # npm install
    
 
-3. Configura el archivo .env:
+4. Configura el archivo .env:
    # cp .env.example .env
    # php artisan key:generate
    
 
-4. Configura la base de datos en el archivo .env:
+5. Configura la base de datos en el archivo .env:
    # DB_CONNECTION=mysql
    # DB_HOST=127.0.0.1
    # DB_PORT=3306
