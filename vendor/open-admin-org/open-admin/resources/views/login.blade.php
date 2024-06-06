@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <title>Iniciar Sesión</title>
+  <link rel="icon" href="{{ asset('img/softige-icon.ico') }}" type="image/x-icon">
+  @if(!is_null($favicon = Admin::favicon()))
+		<link rel="shortcut icon" href="{{$favicon}}">
+	@endif
   <style type="text/tailwindcss">
     		@layer utilities {
       			.content-auto {
@@ -50,12 +55,12 @@
 </head>
 <body class="bg-color" @if(config('admin.login_background_image'))style="background: url({{config('admin.login_background_image')}}) no-repeat;background-size: cover;"@endif>
   <div class="flex justify-center items-center min-h-screen">
-    <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-md bg-gradient-to-r from-blue-900 to-violet-900 rounded-sm shadow-2xl overflow-hidden p-8 space-y-8 animate-slideInFromLeft">
+    <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-sm border-solid border-4 border-yellow-800 border-yellow-700 bg-gradient-to-r from-gray-700 to-gray-800 rounded-md shadow-2xl overflow-hidden p-8 space-y-8 animate-slideInFromLeft">
       <h2 class="text-center text-4xl font-extrabold text-white animate-appear">
-        Welcome
+        Bienvenido
       </h2>
       <p class="text-center text-gray-200 animate-appear">
-        Sign in to your account
+        Inicia sesión a tu cuenta
       </p>
       @if($errors->has('attempts'))
         <div class="alert alert-danger m-0 text-center">{{$errors->first('attempts')}}</div>
@@ -79,7 +84,7 @@
         <!-- Fin correo y contraseña -->
 
         @if($errors->has('username'))
-          <div class="alert text-center text-warning">¡Usuario o contraseña incorrectos!</div>
+          <div class="alert text-center text-red-600">¡Usuario o contraseña incorrectos!</div>
         @endif
 
         @if(config('admin.auth.remember'))
@@ -88,14 +93,14 @@
             <input class="form-checkbox h-4 w-4 text-purple-600 bg-gray-800 border-gray-300 rounded" type="checkbox" name="remember" id="remember" value="1"  {{ (old('remember')) ? 'checked="checked"' : '' }}>
             <span class="ml-2" for="remember">Recuérdame</span>
           </label>
-        <a class="text-sm text-purple-200 hover:underline" target="_blank" href="web.whatsapp.com">Forgot your password?</a>
+        <a class="text-sm text-purple-200 hover:underline" href="/">Regresar</a>
         </div>
         @endif
 
-        <button class="w-full py-2 px-4 bg-purple-500 hover:bg-purple-700 rounded-md shadow-lg text-white font-semibold transition duration-200" type="submit">Ingresar</button>
+        <button class="w-full py-2 px-4 bg-blue-500 hover:bg-blue-700 rounded-lg shadow-lg text-white font-semibold transition duration-200" type="submit">Ingresar</button>
       </form>
       <div class="text-center text-gray-300">
-        Don't have an account? <a class="text-purple-300 hover:underline" href="#">Sign up</a>
+        ¿No tienes una cuenta? <a class="text-purple-300 hover:underline" href="{{ asset('views/contact.php') }}">Solicítala</a>
       </div>
       @endif
     </div>

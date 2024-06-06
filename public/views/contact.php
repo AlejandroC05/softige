@@ -68,11 +68,10 @@
 
             <p class="pt-md-4">También puede contactarnos a través de nuestras redes sociales:</p>
             <div class="social">
-                <a class="btn-custom2" href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
-                <a class="btn-custom2" href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
-                <a class="btn-custom2" href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                <a class="btn-custom2" href=""><i class="fa-solid fa-envelope fa-2xl"></i></a>
-                <a class="btn-custom2" href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                <a class="btn-custom2" href="https://github.com/AlejandroC05" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a class="btn-custom2" href="http://wa.link/u6jpow" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a class="btn-custom2" href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                <a class="btn-custom2" href="mailto:josedavidcabrera358@gmail.com>"><i class="fa-solid fa-envelope fa-2xl"></i></a>              
             </div>
             
           </div>
@@ -81,28 +80,23 @@
     <footer class="footer">
       <ul class="social-icon">
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="https://github.com/AlejandroC05" target="_blank" class="icon">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="http://wa.link/u6jpow" target="_blank" class="icon">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="mail-outline"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank" class="icon">
             <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="mailto:josedavidcabrera358@gmail.com>" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
           </a>
         </li>
       </ul>

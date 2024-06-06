@@ -32,9 +32,13 @@ body {
 }
 
 .container2 {
-	width: 100%;
+	overflow-x: hidden;
 	background: -webkit-linear-gradient(90deg, #01152c,#00273e,#134057);
 	background: linear-gradient(90deg, #01152c,#00273e,#134057);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .aboutcontainer p {
@@ -97,7 +101,8 @@ body {
 
 .footer {
 	position: relative;
-	width: 100%;
+	overflow: hidden;
+	height: auto;
 	background: -webkit-linear-gradient(90deg, #363940,#10151b);
 	background: linear-gradient(90deg, #363940,#10151b);
 	padding: 20px 50px;
@@ -172,6 +177,11 @@ body {
 	height: 170px;
 }
 
+.card-con img {
+	width: 286px;
+	height: 220px;
+}
+
 @media (min-width: 992px) {
 	.about-us iframe {
 		width: 500px;
@@ -181,7 +191,7 @@ body {
 	.text1 {
 		text-align: left;
 		width: auto;
-		padding-top: 25%;
+		padding-top: 30%;
 		padding-left: 45%;
 	}
 
@@ -208,6 +218,11 @@ body {
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
+	.about-us iframe {
+		width: 500px;
+		height: 350px;
+	}
+
 	.text1 {
 		margin: 0 auto;
 		width: 450px;
@@ -234,11 +249,16 @@ body {
 
 @media (min-width: 100px) and (max-width: 767px) {
 	.about-us iframe {
-		width: 400px;
+		width: 300px;
 		height: 350px;
 	}
 
+	.card-con {
+		margin-bottom: 20px;
+	}
+
 	.textfather {
+		padding-top: 15%;
 		display: flex;
 		justify-content: center;
 	}
@@ -248,7 +268,7 @@ body {
 	}
 
 	.text2 p {
-		width: 400px;
+		width: 300px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -256,8 +276,8 @@ body {
 	.text1 {
 		margin: 0 auto;
 		width: 400px;
-		margin-top: 30%;
-		transform: translateY(85%);
+		margin-top: 40%;
+		transform: translateY(120%);
 	}
 
 	.man {

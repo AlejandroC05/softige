@@ -53,39 +53,55 @@
             Nos gusta aprender cosas nuevas, y por supuesto, nos caracteriza la creatividad, el respeto, la perseverancia y el trabajo en equipo. 
             Llevamos 2 años en el mercado y seguiremos aprendiendo para lograr ser mejores cada día.
         </p>
+        <div class="container contactt pb-4">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6 col-sm-12">
+              <div class="card card-con mx-auto" style="width: 18rem;">
+                <img src="/img/jose.jpg" class="card-img-top" alt="Imagen propia">
+                <div class="card-body bg-dark">
+                  <h5 class="card-title text-primary">Jose Cabrera</h5>
+                  <p class="card-text">Me apasiona resolver problemas difíciles y crear soluciones sólidas en el backend para hacer que las aplicaciones funcionen sin problemas y cumplan con las necesidades de los usuarios finales.</p>
+                  <a href="https://www.notion.so/CURRICULUM-VITAE-1-0d066f2e754745b096419c12f2ace705?pvs=4" target="_blank" class="btn-aquamarine" style="color: white;">Ver CV</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="card card-con mx-auto" style="width: 18rem;">
+                <img src="/img/alejandro.jpeg" class="card-img-top" alt="Imagen propia">
+                <div class="card-body bg-dark">
+                  <h5 class="card-title text-primary">Alejandro Cáceres</h5>
+                  <p class="card-text">Estoy comprometido a crear experiencias digitales excepcionales que cautiven a los usuarios y generen un impacto positivo en el mundo online. Convierto las ideas en experiencias visualmente atractivas</p>
+                  <a href="https://www.notion.so/CURRICULUM-VITAE-5a1abd231e8a4efd9d78cb0cc644285a?pvs=4" target="_blank" class="btn-aquamarine" style="color: white;">Ver CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <p>Estamos ubicado en Garzón, Huila, Colombia:</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31895.117218928146!2d-75.64806765225329!3d2.195445742789432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e24d98384178e01%3A0x9f68d7ef91701394!2zR2FyesOzbiwgSHVpbGE!5e0!3m2!1ses-419!2sco!4v1717089662650!5m2!1ses-419!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>Puede descargar y visualizar nuestro curriculum vitae a continuación:</p>
-        <a href="" class="btn-aquamarine">Alejandro</a>
-        <img src="/img/vertical-bar.png" alt="" style="width: 20px; heigth: 40px;">
-        <a href="" class="btn-aquamarine">Jose</a>
     </div>
 
     <footer class="footer">
       <ul class="social-icon">
+      <li class="icon-elem">
+          <a href="https://github.com/AlejandroC05" target="_blank" class="icon">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="http://wa.link/u6jpow" target="_blank" class="icon">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="mail-outline"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank" class="icon">
             <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="mailto:josedavidcabrera358@gmail.com>" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
           </a>
         </li>
       </ul>

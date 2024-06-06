@@ -53,7 +53,7 @@
             <p>Ofrecemos una gama completa de servicios tecnológicos diseñados para impulsar tu negocio al siguiente nivel. Con un enfoque en la innovación, la calidad y la satisfacción del cliente, estaremos listos para ayudarte a alcanzar tus objetivos tecnológicos.</p>
         </div>
     
-        <div class="row justify-content-center">
+        <div class="row justify-content-center text-center">
             <div class="col-md-6 col-sm-12 mb-3">
                 <div class="card card-co mx-auto" style="width: 18rem;">
                 <img src="/img/website.jpg" class="card-img-top" alt="Imagen de Olalekan Oladipupo en Pixabay">
@@ -87,34 +87,29 @@
                 </div>
             </div>
         </div>
-        <p class="text-center pt-4">Si te interesa alguno de nuestros productos, no dudes en <a href="contact.php">contactarnos</a> para obtener más información</p>
+        <p class="text-center pt-4">Si te interesa alguno de nuestros servicios, no dudes en <a href="contact.php">contactarnos</a> para obtener más información.</p>
     </div>
 
     <footer class="footer">
       <ul class="social-icon">
+      <li class="icon-elem">
+          <a href="https://github.com/AlejandroC05" target="_blank" class="icon">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="http://wa.link/u6jpow" target="_blank" class="icon">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="mail-outline"></ion-icon>
-          </a>
-        </li>
-        <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank" class="icon">
             <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="mailto:josedavidcabrera358@gmail.com>" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
           </a>
         </li>
       </ul>

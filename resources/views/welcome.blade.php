@@ -113,22 +113,22 @@
     <footer class="footer">
       <ul class="social-icon">
         <li class="icon-elem">
-          <a href="" class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
+          <a href="https://github.com/AlejandroC05" target="_blank" class="icon">
+            <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="http://wa.link/u6jpow" target="_blank" class="icon">
             <ion-icon name="logo-whatsapp"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank" class="icon">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
-          <a href="" class="icon">
+          <a href="mailto:josedavidcabrera358@gmail.com>" class="icon">
             <ion-icon name="mail-outline"></ion-icon>
           </a>
         </li>
