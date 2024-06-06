@@ -45,13 +45,13 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
    
 
 7. Configura la base de datos en el archivo .env:
-   ```
+   ```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
-   # DB_PORT=3306
-   # DB_DATABASE=softige
-   # DB_USERNAME=tu_usuario
-   # DB_PASSWORD=tu_contraseña
+   DB_PORT=3306
+   DB_DATABASE=softige
+   DB_USERNAME=tu_usuario
+   DB_PASSWORD=tu_contraseña
    ```
    
 
