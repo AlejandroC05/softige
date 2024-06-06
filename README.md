@@ -24,19 +24,19 @@ Este aplicativo web ofrece una solución para la gestión de inventario de cualq
 Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1. Clona el repositorio:
-   bash
+bash
    git clone https://github.com/AlejandroC05/softige.git
    cd softige
    
 
 2. Instala las dependencias de PHP y JavaScript:
-   bash
+bash
    composer install
    npm install
    
 
 3. Configura el archivo .env:
-   bash
+bash
    cp .env.example .env
    php artisan key:generate
    
@@ -52,7 +52,7 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
    
 
 5. Inicia el servidor de desarrollo:
-   bash
+bash
    php artisan serve
    npm run dev
    
