@@ -61,7 +61,7 @@
                 <div class="card-body bg-dark">
                   <h5 class="card-title text-primary">Jose Cabrera</h5>
                   <p class="card-text">Me apasiona resolver problemas difíciles y crear soluciones sólidas en el backend para hacer que las aplicaciones funcionen sin problemas y cumplan con las necesidades de los usuarios finales.</p>
-                  <a href="https://www.notion.so/CURRICULUM-VITAE-1-0d066f2e754745b096419c12f2ace705?pvs=4" target="_blank" class="btn-aquamarine" style="color: white;">Ver CV</a>
+                  <a href="https://reinvented-yellowhorn-4d0.notion.site/CURRICULUM-VITAE-1-0d066f2e754745b096419c12f2ace705?pvs=4" target="_blank"><button>Ver CV</button></a>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="card-body bg-dark">
                   <h5 class="card-title text-primary">Alejandro Cáceres</h5>
                   <p class="card-text">Estoy comprometido a crear experiencias digitales excepcionales que cautiven a los usuarios y generen un impacto positivo en el mundo online. Convierto las ideas en experiencias visualmente atractivas</p>
-                  <a href="https://www.notion.so/CURRICULUM-VITAE-5a1abd231e8a4efd9d78cb0cc644285a?pvs=4" target="_blank" class="btn-aquamarine" style="color: white;">Ver CV</a>
+                  <a href="https://reinvented-yellowhorn-4d0.notion.site/CURRICULUM-VITAE-5a1abd231e8a4efd9d78cb0cc644285a?pvs=4" target="_blank"><button>Ver CV</button></a>
                 </div>
               </div>
             </div>
