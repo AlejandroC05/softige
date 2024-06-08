@@ -55,7 +55,7 @@
 </head>
 <body class="bg-color" @if(config('admin.login_background_image'))style="background: url({{config('admin.login_background_image')}}) no-repeat;background-size: cover;"@endif>
   <div class="flex justify-center items-center min-h-screen">
-    <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-sm border-solid border-4 border-yellow-800 border-yellow-700 bg-gradient-to-r from-gray-700 to-gray-800 rounded-md shadow-2xl overflow-hidden p-8 space-y-8 animate-slideInFromLeft">
+    <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-md border-solid border-4 border-yellow-800 bg-gradient-to-r from-gray-700 to-gray-800 rounded-md shadow-2xl overflow-hidden p-8 space-y-8 animate-slideInFromLeft">
       <h2 class="text-center text-4xl font-extrabold text-white animate-appear">
         Bienvenido
       </h2>
@@ -97,7 +97,7 @@
         </div>
         @endif
 
-        <button class="w-full py-2 px-4 bg-blue-500 hover:bg-blue-700 rounded-lg shadow-lg text-white font-semibold transition duration-200" type="submit">Ingresar</button>
+        <button class="w-full py-2 px-4 bg-gradient-to-r from-purple-900 to-purple-700 hover:bg-purple00 rounded-lg shadow-lg text-white font-semibold transition duration-200" type="submit">Ingresar</button>
       </form>
       <div class="text-center text-gray-300">
         ¿No tienes una cuenta? <a class="text-purple-300 hover:underline" href="{{ asset('views/contact.php') }}">Solicítala</a>

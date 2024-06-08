@@ -92,19 +92,19 @@
 
     <footer class="footer">
       <ul class="social-icon">
-      <li class="icon-elem">
+        <li class="icon-elem">
           <a href="https://github.com/AlejandroC05" target="_blank" class="icon">
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
           <a href="http://wa.link/u6jpow" target="_blank" class="icon">
-            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-whatsapp"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">
           <a href="https://www.facebook.com/josedavid.cabrerapenagos" target="_blank" class="icon">
-            <ion-icon name="logo-whatsapp"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
         <li class="icon-elem">

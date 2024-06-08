@@ -47,7 +47,7 @@
     </div>
     
     <div class="container about-us pb-4 text-center" style="margin-top: 5%;">
-        <h3>Nosotros</h3>
+        <h3 class="fw-bold">Nosotros</h3>
         <p>
             Somos un equipo de desarrolladores conformados principalmente por Alejandro Cáceres y Jose Cabrera, cada uno con 20 años de edad. 
             Nos gusta aprender cosas nuevas, y por supuesto, nos caracteriza la creatividad, el respeto, la perseverancia y el trabajo en equipo. 

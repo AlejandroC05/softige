@@ -55,7 +55,7 @@ return [
     'update_succeeded'      => 'Update succeeded !',
     'save_succeeded'        => 'Save succeeded !',
     'refresh_succeeded'     => 'Refresh succeeded !',
-    'login_successful'      => 'Login successful',
+    'Inicio de sesión exitoso'      => 'Inicio de sesión exitoso',
     'select'                => 'Select',
     'choose'                => 'Choose',
     'choose_file'           => 'Select file',
