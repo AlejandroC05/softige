@@ -11,15 +11,8 @@
 
     <!-- /.box-header -->
     <div class="card-body dependencies collapse show" id="dependencies">
-        <div class="table-responsive">
-            <table class="table table-striped">
-                @foreach($dependencies as $dependency => $version)
-                <tr>
-                    <td width="240px">{{ $dependency }}</td>
-                    <td><span class="badge bg-primary">{{ $version }}</span></td>
-                </tr>
-                @endforeach
-            </table>
+        <div class="container">
+            <h1>Hola</h1>
         </div>
         <!-- /.table-responsive -->
     </div>
