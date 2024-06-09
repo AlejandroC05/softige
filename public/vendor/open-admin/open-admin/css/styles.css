@@ -19365,7 +19365,7 @@ body .table.allow-wrap tr td {
     position: absolute;
     right: 0px;
     background: #fff;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,  30%);
+    background: transparent;
     padding-left: 2rem
 }
 
