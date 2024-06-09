@@ -2520,6 +2520,7 @@ textarea.form-control-lg {
 }
 
 .form-check {
+    color: #fff;
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5em;
@@ -3156,15 +3157,16 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
+    font-weight: bold;
     color: rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-    border-color: black
+    background-color:rgb(4, 20, 190);
+    border-color: rgb(4, 20, 190);
 }
 
 .btn-primary:hover {
-    color: #872fec;
-    background-color: #000000;
-    border-color: #000000
+    color: white;
+    background-color:rgb(5, 19, 171);
+    border-color: rgb(5, 19, 171);
 }
 
 
@@ -3324,9 +3326,10 @@ fieldset:disabled .btn {
 }
 
 .btn-warning {
-    color: #fff;
-    background-color: #ffc107;
-    border-color: #ffc107
+    font-weight: bold;
+    color: #000000;
+    background-color: #FDCB32;
+    border-color: #FDCB32;
 }
 
 .btn-warning:hover {
@@ -19371,6 +19374,7 @@ body .table.allow-wrap tr td {
     right: 0px;
     background: rgb(236, 236, 236);
     padding-left: 2rem;
+
 }
 
 .table-responsive th.column-__actions__ {

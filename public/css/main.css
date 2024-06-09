@@ -88,9 +88,10 @@
   color: #c8c8c8;
   font-weight: bolder;
 }
+
 .custom-nav .nav-item .nav-link {
   text-transform: uppercase;
-  color: rgb(160, 125, 255);
+  color: rgb(68, 197, 217);
 }
 .custom-nav .nav-item .nav-link:hover {
   text-transform: uppercase;
@@ -117,7 +118,13 @@ a {
   width: 110px;
   border-radius: 5px;
   color: #ffffff;
-  background-color: #6a03f0;
+  background-color: rgb(3, 76, 235);
+}
+
+.border-custom {
+  border-radius: 10px;
+	border-width: 4px; /* Ajusta el grosor del borde aquí */
+	border-color: #0351a6; /* Color del borde (puedes usar clases de Bootstrap) */
 }
 
 .custom-nav .nav-item {

@@ -51,7 +51,7 @@
             <div class="col-md-6 text-center textfather">
                 <div class="text1 text-center">                
                     <h2 class="pb-3">Optimice tiempo y haga más con nuestro sistema de gestión de inventario</h2>
-                    <span class="text-warning-emphasis">Disponible solo en su versión web</span>
+                    <span class="text-info">Disponible solo en su versión web</span>
                     <div class="pt-3">
                         <a type="button" class="btn-aquamarine text-center" href="{{ asset('views/contact.php') }}">Adquirir</a>
                     </div>
@@ -88,7 +88,7 @@
                 <div class="text2 text-md-start">                
                     <h3>Sencillez</h3>
                     <p>Gracias a la interfaz minimalista, disfrutará de un aplicativo amigable y fácil de usar, pudiendo usar el mismo sin temor a equivocarse.</p>
-                    <p>¡Olvídese con poco atractivo visual!</p>
+                    <p>¡Olvídese del poco atractivo visual!</p>
                 </div>
             </div>
         </div>

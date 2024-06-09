@@ -49,20 +49,20 @@
     
     <div class="container contactt pb-4" style="margin-top: 5%;">
         <div class="text-center">
-            <h3 class="fw-bold">Servicios</h3>
+            <h1 class="fw-bold text-primary">Servicios</h1>
             <p>Ofrecemos una gama completa de servicios tecnológicos diseñados para impulsar tu negocio al siguiente nivel. Con un enfoque en la innovación, la calidad y la satisfacción del cliente, estaremos listos para ayudarte a alcanzar tus objetivos tecnológicos.</p>
         </div>
     
         <div class="row justify-content-center text-center">
             <div class="col-md-6 col-sm-12 mb-3">
-                <div class="card card-co mx-auto" style="width: 18rem;">
+                <div class="card card-co mx-auto border-custom" style="width: 18rem;">
                 <img src="/img/website.jpg" class="card-img-top" alt="Imagen de Olalekan Oladipupo en Pixabay">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-primary">Desarrollo de Software Personalizado</h5>
                         <p class="card-text">Desarrollamos sitios web dinámicos y plataformas de comercio electrónico adaptadas a tus requerimientos y necesidades.</p>
                     </div>
                 </div>
-                <div class="card card-co mx-auto mt-3" style="width: 18rem;">
+                <div class="card card-co mx-auto border-custom mt-3" style="width: 18rem;">
                 <img src="/img/asesor.png" class="card-img-top" alt="Imagen de Moondance en Pixabay">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-primary">Consultoría y Asesoramiento Tecnológico</h5>
@@ -71,14 +71,14 @@
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 mr-2">
-            <div class="card card-co mx-auto" style="width: 18rem;">
+            <div class="card card-co mx-auto border-custom" style="width: 18rem;">
                 <img src="/img/database.jpg" class="card-img-top" alt="Image by Freepik">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-primary">Desarrollo y Gestión de Bases de Datos</h5>
                         <p class="card-text">Creamos estructuras de bases de datos optimizadas para manejar grandes volúmenes de datos y complejas relaciones entre ellos.</p>
                     </div>
                 </div>
-                <div class="card card-co mx-auto mt-3" style="width: 18rem;">
+                <div class="card card-co mx-auto border-custom mt-3" style="width: 18rem;">
                 <img src="/img/game.jpg" class="card-img-top" alt="Image by Freepik">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-primary">Desarrollo de Juegos</h5>
