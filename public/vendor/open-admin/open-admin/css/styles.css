@@ -2191,13 +2191,14 @@ progress {
     --bs-table-active-color: #fff;
     --bs-table-hover-bg: #323539;
     --bs-table-hover-color: #fff;
-    1color: #fff;
-    border-color: #373b3e
+    color: #fff;
+    border-color: #373b3e;
 }
 
 .table-responsive {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
+    background-color: rgb(236, 236, 236);
 }
 
 @media(max-width: 575.98px) {
@@ -4947,8 +4948,12 @@ fieldset:disabled .btn {
     overflow-y: visible
 }
 
+.navbar-light {
+    background-color: #000;
+}
+
 .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, .9)
+    color: rgba(0, 0, 0, .9);
 }
 
 .navbar-light .navbar-brand:hover,
@@ -19364,9 +19369,8 @@ body .table.allow-wrap tr td {
     padding-right: .75rem;
     position: absolute;
     right: 0px;
-    background: #fff;
-    background: transparent;
-    padding-left: 2rem
+    background: rgb(236, 236, 236);
+    padding-left: 2rem;
 }
 
 .table-responsive th.column-__actions__ {
