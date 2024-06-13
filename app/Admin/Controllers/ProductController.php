@@ -7,6 +7,8 @@ use OpenAdmin\Admin\Form;
 use OpenAdmin\Admin\Grid;
 use OpenAdmin\Admin\Show;
 use \App\Models\Product;
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class ProductController extends AdminController
 {
@@ -74,5 +76,27 @@ class ProductController extends AdminController
         $form->image('image', __('Image'));
 
         return $form;
+    }
+
+    public function updateStock(Request $request)
+    {
+    $request->validate([
+        'product_id' => 'required|integer|exists:products,id',
+        'quantity' => 'required|integer|min:1',
+    ]);
+
+    $product = Product::findOrFail($request->product_id);
+    $currentStock = $product->stock;
+
+    // Verificar si la cantidad a eliminar es mayor que el stock actual
+    if ($request->quantity > $currentStock) {
+        return back()->with('error', 'No puedes eliminar más de lo que hay en stock.');
+    }
+
+    // Restar la cantidad especificada del stock
+    $product->stock = $currentStock - $request->quantity;
+    $product->save();
+
+    return back()->with('success', 'Stock actualizado correctamente.');
     }
 }

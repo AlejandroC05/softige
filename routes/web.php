@@ -1,5 +1,7 @@
 <?php
 
+use App\Admin\Controllers\ProductController;
+use App\Http\Controllers\ProductManagementController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/admin/product-management', [ProductManagementController::class, 'index'])->name('product.management');
+Route::post('/admin/product-management/delete', [ProductManagementController::class, 'delete'])->name('product.management.delete');
+Route::post('/admin/update-stock', [ProductController::class, 'updateStock'])->name('admin.update-stock');
