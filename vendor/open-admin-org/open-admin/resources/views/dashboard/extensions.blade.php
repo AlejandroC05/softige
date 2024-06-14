@@ -7,6 +7,13 @@
         color: #00a65a;
         margin-right: 10px;
     }
+    a {
+        text-decoration: none;
+        color: red;
+    }
+    a:hover {
+        color: red;
+    }
 </style>
 <div class="card box-default">
     <div class="card-header with-border">
@@ -20,6 +27,8 @@
     </div>
     <!-- /.box-header -->
     <div class="card-body collapse show" id="extensions">
+        <p>Vea los proveedores haciendo clic <a href="http://localhost:8000/admin/clients">aquí</a></p>
+        <!--
         <ul class="products-list product-list-in-box">
 
             @foreach($extensions as $extension)
@@ -38,12 +47,13 @@
             </li>
             @endforeach
 
-            <!-- /.item -->
-        </ul>
+            "/.item"
+        </ul> 
+        -->
     </div>
     <!-- /.box-body -->
-    <div class="card-footer text-center">
+    <!-- <div class="card-footer text-center">
         <a href="https://github.com/open-admin-org" target="_blank" class="uppercase">View All Extensions</a>
-    </div>
+    </div> -->
     <!-- /.box-footer -->
 </div>

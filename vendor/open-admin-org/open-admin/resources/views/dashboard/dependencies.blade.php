@@ -12,7 +12,7 @@
     <!-- /.box-header -->
     <div class="card-body dependencies collapse show" id="dependencies">
         <div class="container">
-            <h1>Hola</h1>
+            <h3>Hola</h3>
         </div>
         <!-- /.table-responsive -->
     </div>
