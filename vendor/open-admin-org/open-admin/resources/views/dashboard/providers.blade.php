@@ -13,7 +13,7 @@
     <div class="card-body dependencies collapse show text-center" id="dependencies">
         <div class="container">
             <p>Vea los proveedores haciendo clic <a href="/admin/distributors">aquí</a></p>
-            <a href="/admin/distributors"><img src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461316.jpg?t=st=1718417339~exp=1718420939~hmac=3eaf86dacea7c73d5222e07b80aeb33a9f6afcc6e3f837e8ff46fd6ebfe2c54d&w=1380" alt=""></a>
+            <a href="/admin/distributors"><img src="{{ asset('img/providers.jpg') }}" class="img-fluid img-thumbnail2" alt=""></a>
         </div>
         <!-- /.table-responsive -->
     </div>

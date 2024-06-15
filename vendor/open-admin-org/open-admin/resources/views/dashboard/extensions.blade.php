@@ -28,7 +28,7 @@
     <!-- /.box-header -->
     <div class="card-body collapse show text-center" id="extensions">
         <p>Vea los clientes haciendo clic <a href="/admin/clients">aquí</a></p>
-        <a href="/admin/clients"><img src="https://img.freepik.com/free-photo/young-friends-enjoying-new-technologies_23-2147859206.jpg?t=st=1718413366~exp=1718416966~hmac=ec5829146c8e02c742be5d28176103a12c85bc123fa108df4a167b1f32c1246b&w=1380" alt=""></a>
+        <a href="/admin/clients"><img src="{{ asset('img/clients.jpg') }}" class="img-fluid img-thumbnail2" alt=""></a>
         <!--
         <ul class="products-list product-list-in-box">
 

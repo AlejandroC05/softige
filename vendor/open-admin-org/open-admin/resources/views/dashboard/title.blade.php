@@ -1,3 +1,3 @@
 <div class="dashboard-title" style="color: white;">
-    Panel
+    Principales secciones
 </div>

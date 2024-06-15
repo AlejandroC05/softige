@@ -18,7 +18,8 @@
     <!-- /.box-header -->
     <div class="card-body collapse show text-center" id="environment">
         <p>Haga clic <a href="/admin/products">aquí</a> para administrar los productos</p>
-        <a href="/admin/products"><img src="https://img.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688528.jpg?t=st=1718412307~exp=1718415907~hmac=e145d7603ef60837f709ea4520b265d174365c4a29443b3c123a44856e9e0cc8&w=1380" alt="Products"></a>
+        <p>También puede <a href="/admin/product-management">descontar, eliminar o reducir</a> la cantidad de cada producto</p>
+        <a href="/admin/products"><img src="{{ asset('img/products.jpg') }}" class="img-fluid img-thumbnail2" alt="Products"></a>
         <!-- /.table-responsive -->
     </div>
     <!-- /.box-body -->

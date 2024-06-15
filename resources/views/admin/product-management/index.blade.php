@@ -10,19 +10,18 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <style>
-        body {
-            padding: 0;
-            margin: 0;
+        a {
+            text-decoration: none;
         }
     </style>
-    <body class="bg-gradient-to-r from-slate-900 to-slate-700 p-0 m-0">
-    <div class="min-h-screen w-full py-8 overflow-hidden">
-        <div class="container mx-auto px-4 flex justify-center items-center">
-            <div class="bg-white shadow-md rounded-lg overflow-hidden mx-auto">
-                <div class="p-4 bg-gray-200 border-b">
+    <body class="bg-gradient-to-r from-slate-900 to-slate-700 p-0 m-0 flex items-center justify-center min-h-screen">
+        <div class="w-full max-w-4xl mx-auto px-4">
+            <div class="bg-gray-400 shadow-md rounded-lg overflow-hidden mx-auto">
+                <a href="/admin" class="text-end float-end bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-3 mr-10 rounded">Volver</a>
+                <div class="p-4 bg-gray-300 border-b">
                     <h2 class="text-xl font-semibold">Lista de Productos</h2>
                 </div>
-                <div class="p-4 overflow-x-auto">
+                <div class="p-4 overflow-auto">
                     <table class="min-w-full divide-y divide-gray-200 w-full">
                         <thead>
                             <tr class="bg-gray-100">
@@ -45,8 +44,7 @@
                                             @csrf
                                             <input type="hidden" name="product_id" value="{{ $product->id }}">
                                             <div class="flex items-center space-x-2">
-                                                <input type="number" name="quantity" min="1" required
-                                                       class="appearance-none border rounded-l w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                                                <input type="number" name="quantity" min="1" required class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                                                 <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                                     Eliminar
                                                 </button>
@@ -60,7 +58,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </body>
     </html>
 @endsection

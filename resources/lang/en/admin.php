@@ -61,7 +61,7 @@ return [
     'choose_file'           => 'Select file',
     'choose_image'          => 'Select image',
     'more'                  => 'More',
-    'deny'                  => 'Permission denied',
+    'deny'                  => 'Permisos denegados',
     'administrator'         => 'Administrador',
     'roles'                 => 'Roles',
     'permissions'           => 'Permissions',

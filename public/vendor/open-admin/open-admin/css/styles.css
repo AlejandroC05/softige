@@ -649,6 +649,12 @@ progress {
     height: auto
 }
 
+.img-thumbnail2 {
+    max-width: 80%;
+    max-height: 30%;
+    border-radius: 15px;
+}
+
 .figure {
     display: inline-block
 }
