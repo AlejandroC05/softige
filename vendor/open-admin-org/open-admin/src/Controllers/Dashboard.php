@@ -109,12 +109,12 @@ class Dashboard
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public static function dependencies()
+    public static function providers()
     {
         $json = file_get_contents(base_path('composer.json'));
 
-        $dependencies = json_decode($json, true)['require'];
+        $providers = json_decode($json, true)['require'];
 
-        return Admin::component('admin::dashboard.dependencies', compact('dependencies'));
+        return Admin::component('admin::dashboard.providers', compact('providers'));
     }
 }

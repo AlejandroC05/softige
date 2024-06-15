@@ -1,6 +1,12 @@
+<style>
+    img {
+        width: 470px;
+        height: 250px;
+    }
+</style>
 <div class="card box-default">
     <div class="card-header with-border">
-        <h3 class="card-title">Environment</h3>
+        <h3 class="card-title">Productos</h3>
 
         <div class="card-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-bs-toggle="collapse" href="#environment" role="button" aria-expanded="true" aria-controls="environment">
@@ -10,18 +16,9 @@
     </div>
 
     <!-- /.box-header -->
-    <div class="card-body collapse show" id="environment">
-        <div class="table-responsive">
-            <table class="table table-striped">
-
-                @foreach($envs as $env)
-                <tr>
-                    <td width="120px">{{ $env['name'] }}</td>
-                    <td>{{ $env['value'] }}</td>
-                </tr>
-                @endforeach
-            </table>
-        </div>
+    <div class="card-body collapse show text-center" id="environment">
+        <p>Haga clic <a href="/admin/products">aquí</a> para administrar los productos</p>
+        <a href="/admin/products"><img src="https://img.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688528.jpg?t=st=1718412307~exp=1718415907~hmac=e145d7603ef60837f709ea4520b265d174365c4a29443b3c123a44856e9e0cc8&w=1380" alt="Products"></a>
         <!-- /.table-responsive -->
     </div>
     <!-- /.box-body -->
